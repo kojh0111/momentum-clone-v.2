@@ -3,7 +3,12 @@ body {
   }
   
   h1 {
+    text-shadow: 0px 1px #000000, 2px 1px 0px #dad7d7;
     color: white;
+  }
+
+  span {
+    text-shadow: 0px 0.5px #ffffff, 1px 1px 0px #dad7d7;  
   }
   
   .form,
@@ -13,6 +18,7 @@ body {
   
   .showing {
     display: block;
+    text-shadow: 0px 0.5px #ffffff, 1px 1px 0px #dad7d7;
   }
   
   @keyframes fadeIn {
